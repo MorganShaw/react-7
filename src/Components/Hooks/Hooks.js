@@ -1,7 +1,8 @@
-import React from 'react'
-import '../style.css'
+import React from "react";
+import Poke from "./Poke";
+import "../style.css";
 
-const Hooks = props => {
+const Hooks = (props) => {
   return (
     <section className="advanced-react-section">
       <h1>
@@ -14,7 +15,8 @@ const Hooks = props => {
           Docs
         </a>
       </h1>
+      <Poke />
     </section>
-  )
-}
-export default Hooks
+  );
+};
+export default Hooks;

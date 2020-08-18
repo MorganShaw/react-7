@@ -1,9 +1,9 @@
-import React from 'react'
-import BadButton from './BadButton'
-import Square from './Square'
-import '../style.css'
+import React from "react";
+import BadButton from "./BadButton";
+import Square from "./Square";
+import "../style.css";
 
-const Hocs = props => {
+const Hocs = (props) => {
   return (
     <section className="advanced-react-section">
       <h1>
@@ -16,10 +16,10 @@ const Hocs = props => {
           Docs
         </a>
       </h1>
-      <BadButton />
+      <BadButton text={"Cole's button"} />
       <BadButton darkMode />
-      <Square />
+      <Square darkMode />
     </section>
-  )
-}
-export default Hocs
+  );
+};
+export default Hocs;
